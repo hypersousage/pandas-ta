@@ -54,8 +54,8 @@ setup(
         "data": ["data/*.csv"],
     },
     install_requires=[
-        "numba>=0.59.0",
-        "numpy==1.26.4",
+        "numba>=0.61.0",
+        "numpy==2.1.3",
         "pandas>=2.2.0",
         "pandas-datareader",
         "scipy>=1.12"
@@ -71,12 +71,12 @@ setup(
             "TA-Lib>=0.4.28", "tqdm", "vectorbt", "yfinance>=0.2.36"
         ],
         "test": [
-            "numba>=0.59.0",
-            "numpy==1.26.4",
+            "numba>=0.61.0",
+            "numpy==2.1.3",
             "pandas>=2.2.0",
             "pandas_datareader>=0.10.0",
             "pytest==7.1.2",
-            "TA-Lib>=0.4.28",
+            "TA-Lib>=0.6.0",
             "yfinance>=0.2.36"
         ],
     },
