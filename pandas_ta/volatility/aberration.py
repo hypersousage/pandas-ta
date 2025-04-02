@@ -37,7 +37,7 @@ def aberration(
     # Validate
     length = v_pos_default(length, 5)
     atr_length = v_pos_default(atr_length, 15)
-    _length = max(atr_length, length) + 1
+    _length = max(atr_length, length)
     high = v_series(high, _length)
     low = v_series(low, _length)
     close = v_series(close, _length)

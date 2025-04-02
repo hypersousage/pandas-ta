@@ -118,7 +118,7 @@ def linreg(
                     rd = sflt.epsilon
                 return rn / rd
 
-            return m * length + b if not tsf else m * (length - 1) + b
+            return m * length + b if tsf else m * (length - 1) + b
 
         if np_version >= "1.20.0":
             from numpy.lib.stride_tricks import sliding_window_view
